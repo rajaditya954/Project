@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="lg.jpg">
+    
+
+
+    <title>EaseHome</title>
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>EaseHome</h1>
+        <hr>
+
+        <div class="device">
+            <h2>Living Room Light</h2>
+            <button id="livingRoomLight" onclick="toggleLight('livingRoomLight')">Turn On</button>
+        </div>
+
+        <div class="device">
+            <h2>Thermostat</h2>
+            <input type="number" id="thermostat" value="72" />
+            <button onclick="setThermostat()">Set Temperature</button>
+        </div>
+
+        <div class="status">
+            <h2>Status</h2>
+            <p id="statusText">All systems operational</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
